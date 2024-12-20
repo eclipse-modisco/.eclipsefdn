@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-modisco') {
+orgs.newOrg('modeling.modisco', 'eclipse-modisco') {
   settings+: {
     description: "",
     name: "Eclipse Modisco project",
